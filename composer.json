@@ -1,0 +1,19 @@
+{
+    "name": "lars/frameworks",
+    "description": "Basic Project",
+    "authors": [
+        {
+            "name": "Luis Alberto Ruiz Sarmiento",
+            "email": "lars55360@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
