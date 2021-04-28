@@ -8,6 +8,6 @@ class ServicesController
 {
     public function index()
     {
-        return new Response('services');
+        return view('services');
     }
 }
